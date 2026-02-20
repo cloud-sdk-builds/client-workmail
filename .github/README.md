@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-workmail`](https://www.npmjs.com/package/@aws-sdk/client-workmail/v/3.956.0).
+[`@aws-sdk/client-workmail`](https://www.npmjs.com/package/@aws-sdk/client-workmail/v/3.957.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workmail@3.956.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workmail@3.957.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-Kd/i4Q5lX5Gcmu6vPU1lpX/L6X2Fjh217GHG7DDAi3SuU7zQEO3ToD8otL0RI4Kk
+sha384-2LBNMC+5jxXpfJd34pNAZTxXYPTJ6pMNoyWvwb7nLmHM1ZiMRh9UveaTmMCtYPt0
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-workmail": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workmail@3.956.0/index.min.mjs"
+            "@aws-sdk/client-workmail": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workmail@3.957.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workmail@3.956.0/index.min.mjs": "sha384-Kd/i4Q5lX5Gcmu6vPU1lpX/L6X2Fjh217GHG7DDAi3SuU7zQEO3ToD8otL0RI4Kk"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workmail@3.957.0/index.min.mjs": "sha384-2LBNMC+5jxXpfJd34pNAZTxXYPTJ6pMNoyWvwb7nLmHM1ZiMRh9UveaTmMCtYPt0"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-workmail": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workmail@3.956.0/index.min.mjs"
+                        "@aws-sdk/client-workmail": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workmail@3.957.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workmail@3.956.0/index.min.mjs": "sha384-Kd/i4Q5lX5Gcmu6vPU1lpX/L6X2Fjh217GHG7DDAi3SuU7zQEO3ToD8otL0RI4Kk"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workmail@3.957.0/index.min.mjs": "sha384-2LBNMC+5jxXpfJd34pNAZTxXYPTJ6pMNoyWvwb7nLmHM1ZiMRh9UveaTmMCtYPt0"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.956.0`)
+* Always pin to a specific version (`@3.957.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-workmail/blob/refs/tags/3.956.0/LICENSE
+https://github.com/cloud-sdk-builds/client-workmail/blob/refs/tags/3.957.0/LICENSE
 ```
 
 ---
